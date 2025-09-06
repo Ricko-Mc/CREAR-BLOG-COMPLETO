@@ -1,0 +1,44 @@
+/* client/src/components/ListarRegistros.css */
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(27,31,35,0.1);
+  transition: transform 0.1s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.card-title {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+  color: #0366d6;
+}
+
+.contenido{
+    display: flex;
+    gap:5px;
+}
+
+.card-content {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #24292e;
+}
+
+.card-img{
+    width: 120px;
+    width: 120px;
+    border-radius: 20px;
+}
